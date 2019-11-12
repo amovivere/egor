@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Input Mono Compressed Italic';
+    src: url('../fonts/InputMonoCompressed-Italic.eot');
+    src: url('../fonts/InputMonoCompressed-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/InputMonoCompressed-Italic.woff') format('woff'),
+    url('../fonts/InputMonoCompressed-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Input Mono Compressed Medium';
+        src: url('../fonts/InputMonoCompressed-Medium.eot');
+        src: url('../fonts/InputMonoCompressed-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/InputMonoCompressed-Medium.woff') format('woff'),
+        url('../fonts/InputMonoCompressed-Medium.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Input Mono Compressed Bold';
+        src: url('../fonts/InputMonoCompressed-Bold.eot');
+        src: url('../fonts/InputMonoCompressed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/InputMonoCompressed-Bold.woff') format('woff'),
+        url('../fonts/InputMonoCompressed-Bold.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @mixin bold {
+        font-family: 'Input Mono Compressed Bold', serif;
+    }
+    @mixin Regular {
+        font-family: 'Input Mono Compressed Medium', serif;
+    }
+    @mixin Italic {
+        font-family: 'Input Mono Compressed Italic', sans-serif;
+    }
