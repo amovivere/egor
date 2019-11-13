@@ -29,11 +29,11 @@
     }
 
     @mixin bold {
-        font-family: 'Input Mono Compressed Bold', serif;
+        font-family: 'Input Mono Compressed Bold', monospace;
     }
     @mixin Regular {
-        font-family: 'Input Mono Compressed Medium', serif;
+        font-family: 'Input Mono Compressed Medium', monospace;
     }
     @mixin Italic {
-        font-family: 'Input Mono Compressed Italic', sans-serif;
+        font-family: 'Input Mono Compressed Italic', monospace;
     }
