@@ -1,109 +1,38 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: #000;
+  color: #fff;
 }
 
-.container {
-  max-width: 1170px;
+.content {
+  display: block;
+  max-width: 850px;
   margin: auto;
 }
 
-@font-face {
-  font-family: 'Input Mono Compressed Italic';
-  src: url("../fonts/InputMonoCompressed-Italic.eot");
-  src: url("../fonts/InputMonoCompressed-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/InputMonoCompressed-Italic.woff") format("woff"), url("../fonts/InputMonoCompressed-Italic.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Input Mono Compressed Medium';
-  src: url("../fonts/InputMonoCompressed-Medium.eot");
-  src: url("../fonts/InputMonoCompressed-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/InputMonoCompressed-Medium.woff") format("woff"), url("../fonts/InputMonoCompressed-Medium.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Input Mono Compressed Bold';
-  src: url("../fonts/InputMonoCompressed-Bold.eot");
-  src: url("../fonts/InputMonoCompressed-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/InputMonoCompressed-Bold.woff") format("woff"), url("../fonts/InputMonoCompressed-Bold.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-body {
-  font-family: 'Input Mono Compressed Medium', serif;
-  background-color: #000000;
-  color: #ffffff;
-}
-
 .navbar-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  height: 80px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  min-height: 80px;
+  border: 1px solid #fff;
+  border-top: none;
+  padding: 15px;
 }
 
-.navbar__menu-button {
-  margin-right: 30px;
-}
-
-.navbar__VK a, .navbar__TG a {
+.navbar__logo {
   display: block;
-  font-size: 20px;
-  font-family: 'Input Mono Compressed Bold', serif;
-  text-decoration: none;
-  color: #ffffff;
 }
 
-.menu-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: transparent;
-  border: none;
-  border-right: 1px solid #ffffff;
-  border-left: 1px solid #ffffff;
-  height: 80px;
-  width: 70px;
-}
-
-.menu-button__line {
-  display: block;
-  width: 20px;
-  height: 3px;
-  background-color: #ffffff;
-  margin: 2px 0;
-}
-
-.logo__text {
-  display: block;
-  margin-bottom: 5px;
-  font-size: 18px;
-  text-transform: uppercase;
-  font-family: 'Input Mono Compressed Bold', serif;
-}
-
-.logo__description {
-  display: block;
-  font-size: 14px;
-  font-family: 'Input Mono Compressed Italic', sans-serif;
+.button-o {
+  border: 1px solid #fff;
+  padding: 10px;
 }
 /*# sourceMappingURL=style.css.map */
