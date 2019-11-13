@@ -8,7 +8,7 @@
     font-style: normal;
     }
 
-    @font-face {
+@font-face {
         font-family: 'Input Mono Compressed Medium';
         src: url('../fonts/InputMonoCompressed-Medium.eot');
         src: url('../fonts/InputMonoCompressed-Medium.eot?#iefix') format('embedded-opentype'),
@@ -18,7 +18,7 @@
         font-style: normal;
     }
 
-    @font-face {
+@font-face {
         font-family: 'Input Mono Compressed Bold';
         src: url('../fonts/InputMonoCompressed-Bold.eot');
         src: url('../fonts/InputMonoCompressed-Bold.eot?#iefix') format('embedded-opentype'),
@@ -28,12 +28,12 @@
         font-style: normal;
     }
 
-    @mixin bold {
-        font-family: 'Input Mono Compressed Bold', serif;
+    @mixin Bold {
+        font-family: 'Input Mono Compressed Bold', monospace;
     }
     @mixin Regular {
-        font-family: 'Input Mono Compressed Medium', serif;
+        font-family: 'Input Mono Compressed Medium', monospace;
     }
     @mixin Italic {
-        font-family: 'Input Mono Compressed Italic', sans-serif;
+        font-family: 'Input Mono Compressed Italic', monospace;
     }
