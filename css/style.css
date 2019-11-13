@@ -4,15 +4,8 @@
 }
 
 .container {
-  min-width: -webkit-fit-content;
-  min-width: -moz-fit-content;
-  min-width: fit-content;
-  min-height: 80px;
+  max-width: 1170px;
   margin: auto;
-}
-
-@media (max-width: 768px) {
-  max-width: 400px;
 }
 
 @font-face {
@@ -40,19 +33,9 @@
 }
 
 body {
-  font-family: 'Input Mono Compressed Medium', monospace;
+  font-family: 'Input Mono Compressed Medium', serif;
   background-color: #000000;
   color: #ffffff;
-}
-
-.button-o {
-  color: #ffffff;
-  border: 2px solid #ffffff;
-  background: #000;
-  padding: 10px 22px;
-  text-transform: uppercase;
-  margin-right: 15px;
-  font-family: 'Input Mono Compressed Bold', monospace;
 }
 
 .navbar-wrap {
@@ -75,14 +58,9 @@ body {
 .navbar__VK a, .navbar__TG a {
   display: block;
   font-size: 20px;
-  font-family: 'Input Mono Compressed Bold', monospace;
+  font-family: 'Input Mono Compressed Bold', serif;
   text-decoration: none;
   color: #ffffff;
-}
-
-.navbar__description {
-  font-size: 15px;
-  font-family: Italic;
 }
 
 .menu-button {
@@ -120,12 +98,12 @@ body {
   margin-bottom: 5px;
   font-size: 18px;
   text-transform: uppercase;
-  font-family: 'Input Mono Compressed Bold', monospace;
+  font-family: 'Input Mono Compressed Bold', serif;
 }
 
 .logo__description {
   display: block;
   font-size: 14px;
-  font-family: 'Input Mono Compressed Italic', monospace;
+  font-family: 'Input Mono Compressed Italic', sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
