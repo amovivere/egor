@@ -4,28 +4,31 @@
         align-items: center
         display: flex
         justify-content: space-between
-        border: 1px solid #fff
-        border-top: none
+        //border: 1px solid #fff
+        //border-top: none
         padding: 15px
     &__logo    
         &-name
             text-transform: uppercase
             display: block
             +Bold
+            font-size: 18px
         &-description
             display: block
             +Italic
+            font-size: 15px
     &__blog
 .button__o
     &-c, &-d
         border: 1px solid #fff
         padding: 10px
-@media (max-width: 369px)
+    &-d 
+        background-color: #000
+        color: #fff
+        &:hover
+            background-color: rgba(#fff,1)
+            color: #000
+            padding: 12px
+@media (max-width: 405px)
     .button__o-c
         border-left: none
-
-@media (max-width: 849px)
-    .navbar
-        &-wrap
-            border: none
-            border-bottom: 1px solid #fff
