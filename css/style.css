@@ -53,6 +53,7 @@
 }
 
 .navbar__logo-name {
+  text-transform: uppercase;
   display: block;
   font-family: 'Input Mono Compressed Bold', monospace;
 }
@@ -62,8 +63,21 @@
   font-family: 'Input Mono Compressed Italic', monospace;
 }
 
-.button-o {
+.button__o-c, .button__o-d {
   border: 1px solid #fff;
   padding: 10px;
+}
+
+@media (max-width: 369px) {
+  .button__o-c {
+    border-left: none;
+  }
+}
+
+@media (max-width: 849px) {
+  .navbar-wrap {
+    border: none;
+    border-bottom: 1px solid #fff;
+  }
 }
 /*# sourceMappingURL=style.css.map */

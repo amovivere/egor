@@ -7,14 +7,25 @@
         border: 1px solid #fff
         border-top: none
         padding: 15px
-    &__logo
-        
+    &__logo    
         &-name
+            text-transform: uppercase
             display: block
             +Bold
         &-description
             display: block
             +Italic
-.button-o
-    border: 1px solid #fff
-    padding: 10px
+    &__blog
+.button__o
+    &-c, &-d
+        border: 1px solid #fff
+        padding: 10px
+@media (max-width: 369px)
+    .button__o-c
+        border-left: none
+
+@media (max-width: 849px)
+    .navbar
+        &-wrap
+            border: none
+            border-bottom: 1px solid #fff
