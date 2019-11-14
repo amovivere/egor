@@ -26,11 +26,11 @@
         </div>
     </div>
     </header>
-    <main>
-        <div class="days">
+    <main class="main">
+        <div class="main-days">
             <div class="block">
-                <span>День 1 (8/11/19)</span>
-                <div class="hide">
+                <span class="block__day">День 1 (8/11/19)</span>
+                <div class="block__hide">
                         <p>Я просто в шоке!! <br>
                         Делать две кнопки больше часа и не разобраться как отцентрировать по вертикали!
                         </p>
@@ -40,8 +40,8 @@
                 </div>
             </div>
             <div class="block">
-                    <span>День 2 (9/11/19)</span>
-                    <div class="hide">
+                    <span class="block__day">День 2 (9/11/19)</span>
+                    <div class="block__hide">
                                     <p>Снова переделываю дизайн. <br>
                                     Хотел сделать выпадающее меню по клику, но через CSS оно просто исчезает при отсутствии фокуса. Думаю сделаю это позже через JS.</p>
                                     <p>Переделал репозиторий с файлами, все переименовал, так как в блоге будет ни одна неделя. Скоро будет нужно переделывать меню с ссылками на дни. Заменить Неделями с пунктами дней.</p>
@@ -49,8 +49,8 @@
                     </div>
                 </div>
                 <div class="block">
-                        <span>День 3 (10/11/19)</span>
-                        <div class="hide">
+                        <span class="block__day">День 3 (10/11/19)</span>
+                        <div class="block__hide">
                                         <p>В общем, день начался неплохо, кончился тариф на операторе, который разрешает раздавать интернет. Поэтому пришлось вставлять другую симку и производить некоторые манипуляции в Windows. Спасибо <a href="https://vk.com/dreydreydreydreydreydreydreydrey" target="_blank">Андрею</a> за подсказку <span style="color: red;">&lt;3</span>.</p>
                                         <p>Снова немного меняю дизайн, экспериментирую со шрифтами.</p>
                                         <p>В планах хочу адаптировать сайт под мобилки, чтоб все было красиво и стильно.</p>
@@ -61,7 +61,7 @@
     <script>
     jQuery(function ($) {
         $(".block").click(function () {
-            $(".hide", this).toggle(200);
+            $(".block__hide", this).toggle(200);
         });
     });
 	</script>

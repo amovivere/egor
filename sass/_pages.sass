@@ -4,16 +4,17 @@
 	display: none
 	
 .block 
-    
-    padding: 15px
-    span
+    display: block
+    max-width: 450px
+    margin: auto
+    &__day
+        display: block
+        padding-bottom: 15px
         text-decoration: underline
         text-decoration-color: #fff
         cursor: pointer
-.days
-    display: flex
-    flex-direction: column
-    width: 500px
-    align-items: center
-    text-align: center
-    margin: auto
+        text-align: center
+    &__hide
+        display: none
+        text-align: center
+        align-items: center
