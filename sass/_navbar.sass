@@ -1,4 +1,10 @@
 .navbar
+    &__logo
+        img
+            display: inline
+            max-width: 150px
+            height: auto
+
     &-wrap
         height: 80px
         align-items: center
@@ -6,18 +12,10 @@
         justify-content: space-between
         //border: 1px solid #fff
         //border-top: none
-        padding: 15px
-    &__logo    
-        &-name
-            text-transform: uppercase
-            display: block
-            +Bold
-            font-size: 18px
-        &-description
-            display: block
-            +Italic
-            font-size: 15px
-            text-align: left
+//padding: 15px
+   // &__logo    ///R
+   
+
     &__blog
 .button__o
     &-c, &-d
@@ -31,7 +29,10 @@
         &:hover
             background-color: rgba(#fff,1)
             color: #000
-            padding: 12px
 @media (max-width: 405px)
     .button__o-d
         border-right: none
+@media ( max-width: 325px  )
+    .navbar__logo
+        img
+            max-width: 100px

@@ -64,6 +64,12 @@
   font-size: 20px;
 }
 
+.navbar__logo img {
+  display: inline;
+  max-width: 150px;
+  height: auto;
+}
+
 .navbar-wrap {
   height: 80px;
   -webkit-box-align: center;
@@ -75,22 +81,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 15px;
-}
-
-.navbar__logo-name {
-  text-transform: uppercase;
-  display: block;
-  font-family: 'Input Mono Compressed Bold', monospace;
-  font-size: 20px;
-  font-size: 18px;
-}
-
-.navbar__logo-description {
-  display: block;
-  font-family: 'Input Mono Compressed Italic', monospace;
-  font-size: 15px;
-  text-align: left;
 }
 
 .button__o-c, .button__o-d {
@@ -109,12 +99,17 @@
 .button__o-d:hover {
   background-color: white;
   color: #000;
-  padding: 12px;
 }
 
 @media (max-width: 405px) {
   .button__o-d {
     border-right: none;
+  }
+}
+
+@media (max-width: 325px) {
+  .navbar__logo img {
+    max-width: 100px;
   }
 }
 
