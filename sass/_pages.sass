@@ -1,20 +1,32 @@
 .backhome
     text-decoration: none
-.hide
-	display: none
-	
+.main-days
+    margin-top: 25px
 .block 
     display: block
-    max-width: 450px
+    max-width: 400px
     margin: auto
+    padding: 10px
     &__day
         display: block
-        padding-bottom: 15px
-        text-decoration: underline
-        text-decoration-color: #fff
+        padding: 0px
         cursor: pointer
         text-align: center
+        +Bold
     &__hide
         display: none
         text-align: center
         align-items: center
+        +Regular
+        p 
+            font-size: 13px
+.changes
+    background-color: #fff
+    list-decoration: none
+    padding: 5px
+    color: #000
+    &__list
+        color: #000
+        background-color: #fff
+    &-title
+        margin-top: 15px

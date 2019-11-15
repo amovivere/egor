@@ -28,6 +28,8 @@
   background-color: #000;
   color: #fff;
   font-family: 'Input Mono Compressed Medium', monospace;
+  font-size: 15px;
+  text-transform: uppercase;
 }
 
 .content {
@@ -59,6 +61,7 @@
 
 .section__1 h3 {
   font-family: 'Input Mono Compressed Bold', monospace;
+  font-size: 20px;
 }
 
 .navbar-wrap {
@@ -79,6 +82,7 @@
   text-transform: uppercase;
   display: block;
   font-family: 'Input Mono Compressed Bold', monospace;
+  font-size: 20px;
   font-size: 18px;
 }
 
@@ -92,6 +96,9 @@
 .button__o-c, .button__o-d {
   border: 1px solid #fff;
   padding: 10px;
+  font-family: 'Input Mono Compressed Bold', monospace;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 .button__o-d {
@@ -115,24 +122,24 @@
   text-decoration: none;
 }
 
-.hide {
-  display: none;
+.main-days {
+  margin-top: 25px;
 }
 
 .block {
   display: block;
-  max-width: 450px;
+  max-width: 400px;
   margin: auto;
+  padding: 10px;
 }
 
 .block__day {
   display: block;
-  padding-bottom: 15px;
-  text-decoration: underline;
-  -webkit-text-decoration-color: #fff;
-          text-decoration-color: #fff;
+  padding: 0px;
   cursor: pointer;
   text-align: center;
+  font-family: 'Input Mono Compressed Bold', monospace;
+  font-size: 20px;
 }
 
 .block__hide {
@@ -141,5 +148,27 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: 'Input Mono Compressed Medium', monospace;
+  font-size: 15px;
+}
+
+.block__hide p {
+  font-size: 13px;
+}
+
+.changes {
+  background-color: #fff;
+  list-decoration: none;
+  padding: 5px;
+  color: #000;
+}
+
+.changes__list {
+  color: #000;
+  background-color: #fff;
+}
+
+.changes-title {
+  margin-top: 15px;
 }
 /*# sourceMappingURL=style.css.map */
